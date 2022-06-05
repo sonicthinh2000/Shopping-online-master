@@ -1,23 +1,19 @@
 {
     "development": {
-        "username": "pvfbwprbfaimyh",
-        "password": "1f457691c621e59afe1fd89e44b83a35eb985093bc814603d6e449f2e0a30f80",
-        "database": "da1a2bfefdsnai",
-        "host": "ec2-18-211-86-133.compute-1.amazonaws.com",
+        "username": "postgres",
+        "password": "postgres",
+        "database": "lazydb",
+        "host": "localhost",
         "dialect": "postgres",
-        "dialectOptions": {
-            "ssl": {
-                "require": true,
-                "rejectUnauthorized": false
-            }
-        }
+        "operatorAliases": false
     },
     "test": {
         "username": "postgres",
         "password": "postgres",
-        "database": "shoppingdb",
+        "database": "lazydb",
         "host": "localhost",
-        "dialect": "postgres"
+        "dialect": "postgres",
+        "operatorAliases": false
     },
     "production": {
         "username": "pvfbwprbfaimyh",
