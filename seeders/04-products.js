@@ -5,8 +5,8 @@ module.exports = {
         let data = [{
                 name: "Apple iPhone 13",
                 price: 23490000,
-                imagepath: "../img/products/hm-shirt-1.jpg",
-                thumbnailpath: '../img/products/hm-shirt-1.jpg',
+                imagepath: "../img/products/1.jpg",
+                thumbnailpath: '../img/products/1.jpg',
                 categoryId: 1,
                 brandId: 1,
                 availability: true,
@@ -32,8 +32,8 @@ module.exports = {
             {
                 name: "Masstel Tab 10A",
                 price: 2989000,
-                imagepath: "../img/products/hm-top-1.jpg",
-                thumbnailpath: '../img/products/hm-top-1.jpg',
+                imagepath: "../img/products/2.jpg",
+                thumbnailpath: '../img/products/2.jpg',
                 categoryId: 1,
                 brandId: 2,
                 availability: true,
@@ -54,8 +54,8 @@ module.exports = {
             {
                 name: "Laptop Lenovo 100e Gen 2 N4020",
                 price: 5890000,
-                imagepath: "../img/products/hm-trouser-1.jpg",
-                thumbnailpath: '../img/products/hm-trouser-1.jpg',
+                imagepath: "../img/products/3.jpg",
+                thumbnailpath: '../img/products/3.jpg',
                 categoryId: 1,
                 brandId: 3,
                 availability: false,
@@ -72,8 +72,8 @@ module.exports = {
             {
                 name: "iMac M1",
                 price: 35900000,
-                imagepath: "../img/products/hm-shoes-1.jpg",
-                thumbnailpath: '../img/products/hm-shoes-1.jpg',
+                imagepath: "../img/products/4.jpg",
+                thumbnailpath: '../img/products/4.jpg',
                 categoryId: 1,
                 brandId: 4,
                 availability: true,
@@ -97,8 +97,8 @@ module.exports = {
             {
                 name: "Audio Bluetooth Microlab M108-BT",
                 price: 665000,
-                imagepath: "../img/products/hm-bag-1.jpg",
-                thumbnailpath: '../img/products/hm-bag-1.jpg',
+                imagepath: "../img/products/5.jpg",
+                thumbnailpath: '../img/products/5.jpg',
                 categoryId: 1,
                 brandId: 5,
                 availability: true,
@@ -112,8 +112,8 @@ module.exports = {
             {
                 name: "Webcam Logitech C920 Pro",
                 price: 2180000,
-                imagepath: '../img/products/hm-jacket-1.jpg',
-                thumbnailpath: '../img/products/hm-jacket-1.jpg',
+                imagepath: '../img/products/6.jpg',
+                thumbnailpath: '../img/products/6.jpg',
                 categoryId: 1,
                 brandId: 6,
                 availability: false,
@@ -128,8 +128,8 @@ module.exports = {
             {
                 name: "Computer Monitor Dell E2420H",
                 price: 4285000,
-                imagepath: '../img/products/uni-shirt-1.jpg',
-                thumbnailpath: '../img/products/uni-shirt-1.jpg',
+                imagepath: '../img/products/7.jpg',
+                thumbnailpath: '../img/products/7.jpg',
                 categoryId: 1,
                 brandId: 7,
                 availability: false,
@@ -157,8 +157,8 @@ module.exports = {
             {
                 name: "Men Stay Simplicity - Acne Relief Skincare TriO",
                 price: 570000,
-                imagepath: '../img/products/adidas-dress-1.jpg',
-                thumbnailpath: '../img/products/adidas-dress-1.jpg',
+                imagepath: '../img/products/8.jpg',
+                thumbnailpath: '../img/products/8.jpg',
                 categoryId: 2,
                 brandId: 8,
                 availability: true,
@@ -181,8 +181,8 @@ module.exports = {
             {
                 name: "LaMeiLa 13-piece makeup set",
                 price: 328000,
-                imagepath: '../img/products/zara-shirt-1.jpg',
-                thumbnailpath: '../img/products/zara-shirt-1.jpg',
+                imagepath: '../img/products/9.jpg',
+                thumbnailpath: '../img/products/9.jpg',
                 categoryId: 2,
                 brandId: 9,
                 availability: true,
@@ -209,8 +209,8 @@ module.exports = {
             {
                 name: "ENERGY BEAUTY BAR ENERGY MASSAGE MACHINE - B0008",
                 price: 55000,
-                imagepath: '../img/products/zara-top-1.jpg',
-                thumbnailpath: '../img/products/zara-top-1.jpg',
+                imagepath: '../img/products/10.jpg',
+                thumbnailpath: '../img/products/10.jpg',
                 categoryId: 2,
                 brandId: 10,
                 availability: false,
@@ -230,8 +230,8 @@ module.exports = {
             {
                 name: "Man's Bath And Body Works Noir",
                 price: 279000,
-                imagepath: '../img/products/lv-shirt-1.jpg',
-                thumbnailpath: '../img/products/lv-shirt-1.jpg',
+                imagepath: '../img/products/11.jpg',
+                thumbnailpath: '../img/products/11.jpg',
                 categoryId: 2,
                 brandId: 11,
                 availability: true,
@@ -249,8 +249,8 @@ module.exports = {
             {
                 name: "3 Pack 10ml Travel Glass Roller Bottles Tubes Containers",
                 price: 235000,
-                imagepath: '../img/products/gucci-jacket-1.jpg',
-                thumbnailpath: '../img/products/gucci-jacket-1.jpg',
+                imagepath: '../img/products/12.jpg',
+                thumbnailpath: '../img/products/12.jpg',
                 categoryId: 2,
                 brandId: 12,
                 availability: false,
@@ -266,8 +266,8 @@ module.exports = {
             {
                 name: "Dana Classic Fragrances Chantilly Eau De Toilette Spray 1.0 Fl",
                 price: 1012000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/13.jpg',
+                thumbnailpath: '../img/products/13.jpg',
                 categoryId: 2,
                 brandId: 13,
                 availability: false,
@@ -281,8 +281,8 @@ module.exports = {
             {
                 name: "Drypers Drypantz Baby Diapers",
                 price: 177000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/14.jpg',
+                thumbnailpath: '../img/products/14.jpg',
                 categoryId: 3,
                 brandId: 14,
                 availability: true,
@@ -300,8 +300,8 @@ module.exports = {
             {
                 name: "Nutricare Gastro milk powder",
                 price: 479000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/15.jpg',
+                thumbnailpath: '../img/products/15.jpg',
                 categoryId: 3,
                 brandId: 15,
                 availability: true,
@@ -316,8 +316,8 @@ module.exports = {
             {
                 name: "Basketball Suit Tops Shorts for Kids",
                 price: 189000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/16.jpg',
+                thumbnailpath: '../img/products/16.jpg',
                 categoryId: 3,
                 brandId: 16,
                 availability: true,
@@ -342,8 +342,8 @@ module.exports = {
             {
                 name: "Grasp Wooden Puzzle Toy Alphabet Digit Learning",
                 price: 130000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/17.jpg',
+                thumbnailpath: '../img/products/17.jpg',
                 categoryId: 3,
                 brandId: 17,
                 availability: true,
@@ -365,8 +365,8 @@ module.exports = {
             {
                 name: "Cetaphil Baby Body Wash & Shampoo",
                 price: 155000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/18.jpg',
+                thumbnailpath: '../img/products/18.jpg',
                 categoryId: 3,
                 brandId: 18,
                 availability: true,
@@ -381,8 +381,8 @@ module.exports = {
             {
                 name: "Young Toys - Mini Tobot Vulcan",
                 price: 337000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/19.jpg',
+                thumbnailpath: '../img/products/19.jpg',
                 categoryId: 3,
                 brandId: 19,
                 availability: false,
@@ -398,8 +398,8 @@ module.exports = {
             {
                 name: "Coca-Cola Beverage",
                 price: 55000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/20.jpg',
+                thumbnailpath: '../img/products/20.jpg',
                 categoryId: 4,
                 brandId: 20,
                 availability: true,
@@ -420,8 +420,8 @@ module.exports = {
             {
                 name: "Baltisky Nevod canned",
                 price: 48000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/21.jpg',
+                thumbnailpath: '../img/products/21.jpg',
                 categoryId: 4,
                 brandId: 21,
                 availability: false,
@@ -436,8 +436,8 @@ module.exports = {
             {
                 name: "Insulation wooden pads",
                 price: 9400,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/22.jpg',
+                thumbnailpath: '../img/products/22.jpg',
                 categoryId: 4,
                 brandId: 22,
                 availability: true,
@@ -453,8 +453,8 @@ module.exports = {
             {
                 name: "20PCS Laundry Effervescent Tablets Washing Machine",
                 price: 173000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/23.jpg',
+                thumbnailpath: '../img/products/23.jpg',
                 categoryId: 4,
                 brandId: 23,
                 availability: false,
@@ -470,8 +470,8 @@ module.exports = {
             {
                 name: "Halloween clown neck",
                 price: 183700,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/24.jpg',
+                thumbnailpath: '../img/products/24.jpg',
                 categoryId: 4,
                 brandId: 24,
                 availability: false,
@@ -490,8 +490,8 @@ module.exports = {
             {
                 name: "King's pet dog and cat's food",
                 price: 38000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/25.jpg',
+                thumbnailpath: '../img/products/25.jpg',
                 categoryId: 4,
                 brandId: 25,
                 availability: true,
@@ -508,8 +508,8 @@ module.exports = {
             {
                 name: "Green mango - 1kg",
                 price: 40000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                imagepath: '../img/products/26.jpg',
+                thumbnailpath: '../img/products/26.jpg',
                 categoryId: 4,
                 brandId: 26,
                 availability: false,
@@ -523,131 +523,373 @@ module.exports = {
                 reviewCount: 1
             },
             {
-                name: "King's pet dog and cat's food",
-                price: 38000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                name: "Versatile shelf Vando",
+                price: 920000,
+                imagepath: '../img/products/27.jpg',
+                thumbnailpath: '../img/products/27.jpg',
                 categoryId: 5,
                 brandId: 27,
                 availability: true,
-                sumary: "King's Pet Chicken Mix Pate 380g can of cat food",
+                sumary: "Multi-function shelf for microwave oven stainless steel 304 white anti-rust, heavy duty kitchen shelf VANDO convenient shelves",
                 description: `
-                Brand King's Pet
+                Brand: VANDO
                 Origin of Vietnamese brand
-                Capacity 500ml
-                1 year shelf life
-                Made in Viet Nam`,
+                Material, substance
+                High quality 304 stainless steel, anti-rust
+                Storage instructions
+                A dry, well-balanced place
+                User manual
+                Arrange the microwave, oven, kitchen and bathroom items neatly
+                Original Stainless Steel Shelves Model
+                Size Various sizes: 3 tiers, 4 tiers, 5 tiers
+                Made in Viet Nam
+                Weight 7-10kg`,
                 overallReview: 4,
-                reviewCount: 4
+                reviewCount: 2
             },
             {
-                name: "King's pet dog and cat's food",
-                price: 38000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                name: "KSEIBI Kit",
+                price: 250000,
+                imagepath: '../img/products/28.jpg',
+                thumbnailpath: '../img/products/28.jpg',
                 categoryId: 5,
                 brandId: 28,
-                availability: true,
-                sumary: "King's Pet Chicken Mix Pate 380g can of cat food",
+                availability: false,
+                sumary: "KSEIBI 145065 Kit includes 26 High Quality Steel Detail Tools",
                 description: `
-                Brand King's Pet
-                Origin of Vietnamese brand
-                Capacity 500ml
-                1 year shelf life
-                Made in Viet Nam`,
-                overallReview: 4,
-                reviewCount: 4
+                Brand name KSEIBI
+                User manual
+                Making the repair and installation, etc. of equipment and machines easy, fast and convenient.
+                Model KSEIBI 145065
+                Dimensions 32 x 23 x 8 cm
+                Note Provide genuine, high-quality products. Make sure the product quality matches the description. 100% real pictures
+                Made in China
+                Weight 1.6 Kg
+                Packing
+                Packed by Pure Plastic box`,
+                overallReview: 0,
+                reviewCount: 0
             },
             {
-                name: "King's pet dog and cat's food",
-                price: 38000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                name: "Cotton Korea Bed Sheet And Pillowcase Set ADU79",
+                price: 117000,
+                imagepath: '../img/products/29.jpg',
+                thumbnailpath: '../img/products/29.jpg',
                 categoryId: 5,
                 brandId: 29,
                 availability: true,
-                sumary: "King's Pet Chicken Mix Pate 380g can of cat food",
+                sumary: "Korea ADU79 Cotton Bed Sheet And Pillowcase Set Full Size Mattress 1m4, 1m6, 1m8 Excluding Blanket",
                 description: `
-                Brand King's Pet
+                OEM brand
                 Origin of Vietnamese brand
                 Capacity 500ml
-                1 year shelf life
                 Made in Viet Nam`,
-                overallReview: 4,
-                reviewCount: 4
+                overallReview: 4.5,
+                reviewCount: 2
             },
             {
-                name: "King's pet dog and cat's food",
-                price: 38000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                name: "11Pcs Wall Hanging Photo Frame Set Family Picture",
+                price: 529000,
+                imagepath: '../img/products/30.jpg',
+                thumbnailpath: '../img/products/30.jpg',
                 categoryId: 5,
                 brandId: 30,
                 availability: true,
-                sumary: "King's Pet Chicken Mix Pate 380g can of cat food",
+                sumary: "11Pcs Wall Hanging Photo Frame Set Family Picture Display Modern Art Home Decor For Hallway Bedroom Living Room Wall Decoration",
                 description: `
-                Brand King's Pet
-                Origin of Vietnamese brand
-                Capacity 500ml
-                1 year shelf life
-                Made in Viet Nam`,
-                overallReview: 4,
+                OEM brand
+                Made in China brand
+                Made in China
+                Size 8pcs A Size: 5'' -- 8.8 x 12.8cm 3pcs B Size: 7'' -- 12.8 x 17.8cm`,
+                overallReview: 3,
                 reviewCount: 4
             },
             {
-                name: "King's pet dog and cat's food",
-                price: 38000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                name: "Deli pastel spring notebook",
+                price: 33000,
+                imagepath: '../img/products/31.jpg',
+                thumbnailpath: '../img/products/31.jpg',
                 categoryId: 5,
                 brandId: 31,
                 availability: true,
-                sumary: "King's Pet Chicken Mix Pate 380g can of cat food",
+                sumary: "Deli pastel spring notebook - 80-page horizontal lined paper A5/B5 size",
                 description: `
-                Brand King's Pet
-                Origin of Vietnamese brand
-                Capacity 500ml
-                1 year shelf life
-                Made in Viet Nam`,
-                overallReview: 4,
-                reviewCount: 4
+                Brand Deli
+                Made in China
+                Page number 80
+                Made in China brand`,
+                overallReview: 3,
+                reviewCount: 5
             },
             {
-                name: "King's pet dog and cat's food",
-                price: 38000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
+                name: "Guitar Acoustic HT Music",
+                price: 1450000,
+                imagepath: '../img/products/32.jpg',
+                thumbnailpath: '../img/products/32.jpg',
                 categoryId: 5,
                 brandId: 32,
                 availability: true,
-                sumary: "King's Pet Chicken Mix Pate 380g can of cat food",
+                sumary: "Guitar Acoustic HT Music Black size 40",
                 description: `
-                Brand King's Pet
+                OEM brand
                 Origin of Vietnamese brand
-                Capacity 500ml
-                1 year shelf life
-                Made in Viet Nam`,
+                Made in Viet Nam
+                Weight 1kg`,
+                overallReview: 5,
+                reviewCount: 2
+            },
+            {
+                name: "Laundry Basket Clothes Hamper",
+                price: 139000,
+                imagepath: '../img/products/33.jpg',
+                thumbnailpath: '../img/products/33.jpg',
+                categoryId: 5,
+                brandId: 33,
+                availability: false,
+                sumary: "Household Laundry Hamper Laundry Basket Clothes Hamper for Storage Clothes",
+                description: `
+                Made in China brand
+                Made in China
+                OEM brand`,
+                overallReview: 3,
+                reviewCount: 1
+            },
+            {
+                name: "V-neck Plus Size Top Shirt",
+                price: 283000,
+                imagepath: '../img/products/34.jpg',
+                thumbnailpath: '../img/products/34.jpg',
+                categoryId: 6,
+                brandId: 34,
+                availability: true,
+                sumary: "2021 Women Vintage Three Quarter Lace V-neck Plus Size Top Shirt Blouse Top Femme Women's Clothing",
+                description: `
+                OEM brand
+                Made in China brand
+                Made in China`,
+                overallReview: 5,
+                reviewCount: 2
+            },
+            {
+                name: "Men's Clothing Sets Sweatshirts Jogger Pants",
+                price: 109000,
+                imagepath: '../img/products/35.jpg',
+                thumbnailpath: '../img/products/35.jpg',
+                categoryId: 6,
+                brandId: 35,
+                availability: true,
+                sumary: "Men's Clothing Set Sweatshirt Jogger Bo Bear Sports Style Fashion Zenkonu",
+                description: `
+                Made in Viet Nam
+                Origin of Vietnamese brand
+                OEM brand`,
+                overallReview: 5,
+                reviewCount: 3
+            },
+            {
+                name: "Men's kaki jacket",
+                price: 285000,
+                imagepath: '../img/products/36.jpg',
+                thumbnailpath: '../img/products/36.jpg',
+                categoryId: 6,
+                brandId: 36,
+                availability: true,
+                sumary: "Men's khaki jacket with many pockets, high quality khaki quality, no ruffled color, Ulzzang jacket style",
+                description: `
+                khaki material
+                Made in Viet Nam
+                Origin of Vietnamese brand
+                OEM brand`,
                 overallReview: 4,
+                reviewCount: 2
+            },
+            {
+                name: "sweater in ST06",
+                price: 110000,
+                imagepath: '../img/products/37.jpg',
+                thumbnailpath: '../img/products/37.jpg',
+                categoryId: 6,
+                brandId: 37,
+                availability: true,
+                sumary: "sweater in ST06",
+                description: `
+                Made in Viet Nam
+                Origin of Vietnamese brand
+                OEM brand`,
+                overallReview: 5,
+                reviewCount: 1
+            },
+            {
+                name: "Cela Dress",
+                price: 139000,
+                imagepath: '../img/products/38.jpg',
+                thumbnailpath: '../img/products/38.jpg',
+                categoryId: 6,
+                brandId: 38,
+                availability: true,
+                sumary: "Women's short sleeve Cela Dress fashion XIXO - DAM0047",
+                description: `
+                Chất liệu	Thun
+                Xuất xứ	Việt Nam
+                Xuất xứ thương hiệu	Việt Nam
+                Thương hiệu	XIXO`,
+                overallReview: 4,
+                reviewCount: 2
+            },
+            {
+                name: "Domba Shoes Black",
+                price: 799000,
+                imagepath: '../img/products/39.jpg',
+                thumbnailpath: '../img/products/39.jpg',
+                categoryId: 6,
+                brandId: 39,
+                availability: true,
+                sumary: "Domba Shoes Black",
+                description: `
+                Made in China
+                Synthetic leather material
+                Model H-9111
+                Origin of Korean brand
+                Brand DOMBA`,
+                overallReview: 5,
+                reviewCount: 2
+            },
+            {
+                name: "Men's short",
+                price: 31000,
+                imagepath: '../img/products/40.jpg',
+                thumbnailpath: '../img/products/40.jpg',
+                categoryId: 6,
+                brandId: 40,
+                availability: true,
+                sumary: "Men's Shorts, Shorts, Sports Good Quality Fabric Cool Summer",
+                description: `
+                Made in China
+                Made in China brand
+                OEM brand`,
+                overallReview: 3,
                 reviewCount: 4
             },
             {
-                name: "King's pet dog and cat's food",
-                price: 38000,
-                imagepath: '../img/products/chanel-dress-1.jpg',
-                thumbnailpath: '../img/products/chanel-dress-1.jpg',
-                categoryId: 5,
-                brandId: 33,
+                name: "Men's shoes running shoes",
+                price: 159000,
+                imagepath: '../img/products/41.jpg',
+                thumbnailpath: '../img/products/41.jpg',
+                categoryId: 7,
+                brandId: 41,
                 availability: true,
-                sumary: "King's Pet Chicken Mix Pate 380g can of cat food",
+                sumary: "Men's running shoes durable fashion PETTINO- PZS03",
                 description: `
-                Brand King's Pet
+                Brand Pettino
+                Origin of Vietnamese brand
+                Model PZS03`,
+                overallReview: 3,
+                reviewCount: 2
+            },
+            {
+                name: "Women's sports shoes",
+                price: 129000,
+                imagepath: '../img/products/42.jpg',
+                thumbnailpath: '../img/products/42.jpg',
+                categoryId: 7,
+                brandId: 42,
+                availability: true,
+                sumary: "Women's sports shoes, women's lace-up sneakers V202",
+                description: `
+                Origin of Vietnamese brand
+                OEM brand`,
+                overallReview: 4,
+                reviewCount: 2
+            },
+            {
+                name: "Roller Road Drift Skates",
+                price: 394000,
+                imagepath: '../img/products/43.jpg',
+                thumbnailpath: '../img/products/43.jpg',
+                categoryId: 7,
+                brandId: 43,
+                availability: true,
+                sumary: "Roller Road Drift Skates Plate Outdoor Split Skateboard",
+                description: `
+                OEM brand
+                Made in China brand
+                Made in China`,
+                overallReview: 3,
+                reviewCount: 1
+            },
+            {
+                name: "Adidas Fitness Yoga Mat",
+                price: 738000,
+                imagepath: '../img/products/44.jpg',
+                thumbnailpath: '../img/products/44.jpg',
+                categoryId: 7,
+                brandId: 44,
+                availability: true,
+                sumary: "Adidas Fitness Yoga Mat 7mm ADMT-11014",
+                description: `
+                Easy to sanitize and clean
+                Ideal for ground exercise and gym training
+                Lightweight design, tightly rolled for transport and storage
+                Ribbed bottom helps grip the floor and reduces movement
+                Carpet size: 173 cm x 61 cm x 0.7 cm
+                Color : Black (ADMT-11014GR) ; Green (ADMT-11014BL) ; Red (ADMT-11014RD)`,
+                overallReview: 4,
+                reviewCount: 1
+            },
+            {
+                name: "Training boxing gloves",
+                price: 624000,
+                imagepath: '../img/products/45.jpg',
+                thumbnailpath: '../img/products/45.jpg',
+                categoryId: 7,
+                brandId: 45,
+                availability: true,
+                sumary: "Genuine Livepro training boxing gloves SPARRING GLOVES",
+                description: `
+                Brand: LivePro
                 Origin of Vietnamese brand
                 Capacity 500ml
-                1 year shelf life
+                PU leather material
                 Made in Viet Nam`,
-                overallReview: 4,
+                overallReview: 3,
                 reviewCount: 4
             },
+            {
+                name: "Diving Propeller WHALE",
+                price: 362000,
+                imagepath: '../img/products/46.jpg',
+                thumbnailpath: '../img/products/46.jpg',
+                categoryId: 7,
+                brandId: 46,
+                availability: false,
+                sumary: "Diving Propeller WHALE",
+                description: `
+                Size reference: XS/M: 4-8 (US) 36-41 (EU) 22-25 (JP); ML/XL: 9-13 (US) 42-47 (EU) 26-29 (JP)
+                Sturdy side rails to channel the water pre-bent design for a natural kick
+                Soft foot pocket with easy-to-adjust strap
+                Soft short blade and elastomer foot pocket able to be put on quickly and easily
+                Accommodates 4-5 consecutive sizes and can be worn over thin footwear
+                Perfect for snorkeling or swimming`,
+                overallReview: 0,
+                reviewCount: 0
+            },
+            {
+                name: "Bag of sports accessories football",
+                price: 67000,
+                imagepath: '../img/products/47.jpg',
+                thumbnailpath: '../img/products/47.jpg',
+                categoryId: 7,
+                brandId: 47,
+                availability: true,
+                sumary: "Bag of sports accessories football 2022",
+                description: `
+                Brand: Wika
+                Origin of Vietnamese brand
+                Capacity 500ml
+                Made in Viet Nam`,
+                overallReview: 3,
+                reviewCount: 4
+            }
         ];
         data.map(item => {
             item.createdAt = Sequelize.literal('NOW()');

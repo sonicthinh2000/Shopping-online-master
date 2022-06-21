@@ -3,75 +3,75 @@
 module.exports = {
     up: (queryInterface, Sequelize) => {
         let data = [{
-                message: 'Tạm ổn hiuhiu',
+                message: 'So good',
                 userId: 1,
                 productId: 1,
                 parentCommentId: null
             },
             {
-                message: 'Cũng được. How about the size S?',
+                message: 'Nice phone',
                 userId: 2,
                 productId: 1,
                 parentCommentId: null
             },
             {
-                message: 'Còn hàng không vậy?',
-                userId: 1,
-                productId: 1,
+                message: 'good item',
+                userId: 5,
+                productId: 2,
                 parentCommentId: null
             },
             {
-                message: 'Áo này tui sợ mặc mùa hè bị nóng đó',
-                userId: 3,
-                productId: 1,
-                parentCommentId: null
-            },
-            {
-                message: 'Áo này tui sợ mặc mùa hè bị nóng đó',
+                message: 'quite expensive',
                 userId: 3,
                 productId: 2,
                 parentCommentId: null
             },
             {
-                message: 'Áo này tui sợ mặc mùa hè bị nóng đó',
+                message: 'nice product',
                 userId: 3,
                 productId: 3,
                 parentCommentId: null
             },
             {
-                message: 'Áo này tui sợ mặc mùa hè bị nóng đó',
+                message: 'good item',
+                userId: 2,
+                productId: 3,
+                parentCommentId: null
+            },
+            {
+                message: 'have to try this',
                 userId: 1,
                 productId: 4,
                 parentCommentId: null
             },
             {
-                message: 'Áo này tui sợ mặc mùa hè bị nóng đó',
+                message: 'good item',
                 userId: 2,
-                productId: 5,
+                productId: 20,
                 parentCommentId: null
             },
             {
-                message: 'Áo này tui sợ mặc mùa hè bị nóng đó',
+                message: 'nice product',
                 userId: 3,
-                productId: 6,
+                productId: 8,
                 parentCommentId: null
             },
             {
-                message: 'Áo này tui sợ mặc mùa hè bị nóng đó',
+                message: 'maybe cheaper',
                 userId: 4,
-                productId: 7,
+                productId: 8,
                 parentCommentId: null
             },
             {
-                message: 'Áo này có dễ bị dơ không dị?',
-                userId: 2,
-                productId: 2,
+                message: 'good item',
+                userId: 5,
+                productId: 9,
                 parentCommentId: null
             },
             {
-                message: 'Áo xấu dị, có áo nào đẹp hơn không?',
+                message: 'i will buy this',
                 userId: 4,
-                productId: 1,
+                productId: 14,
                 parentCommentId: null
             }
         ];
