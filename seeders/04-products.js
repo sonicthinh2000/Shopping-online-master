@@ -26,7 +26,7 @@ module.exports = {
                 256 GB internal memory
                 Stored Contacts Depends on memory
                 External memory card No`,
-                overallReview: 5,
+                overallReview: 4.5,
                 reviewCount: 2
             },
             {

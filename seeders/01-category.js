@@ -8,7 +8,7 @@ module.exports = {
             { name: "Babies & Toys", imagepath: '../img/categories/16.jpg' },
             { name: "Groceries & Pets", imagepath: '../img/categories/22.jpg' },
             { name: "Home & Lifestyle", imagepath: '../img/categories/29.jpg' },
-            { name: "Fashion & Accessories", imagepath: '../img/categories/35.jpg' },
+            { name: "Fashion & Fitment", imagepath: '../img/categories/35.jpg' },
             { name: "Sports & Travel", imagepath: '../img/categories/42.jpg' }
         ];
         data.map(item => {
