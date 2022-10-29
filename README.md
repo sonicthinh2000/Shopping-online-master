@@ -5,7 +5,20 @@ This is the Demo of Online Retail Web Application of Women Fashion. The purpose 
 
 INFO
 
-Project 1 semester of Software Engineering Course _ School of Computer Science & Engineering.
+Thesis Project _ School of Computer Science & Engineering.
 International University - Vietnam National University - Ho Chi Minh City.
 
-Developed by: --- Nguyen Quoc Khanh (Leader) --- Tran Quoc Thinh --- Nguyen Ngoc Mai Oanh
+Developed by: --- Tran Quoc Thinh --- 
+
+Setup
+
+1: Down Nodejs
+2: Down PostgreSQL
+3: terminal "npm install -s pg pg-hstore sequelize-cli"
+4: npm install -g sequelize-cli
+5: npm install -g nodemon
+6: npm install -s express-handlebars-paginate
+7: Run PowerShell as Admin then enter "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
+8: terminal "nodemon"
+9: web "localhost:5000/sync"
+10: sequelize db:seed:all
