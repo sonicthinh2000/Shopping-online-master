@@ -1,6 +1,6 @@
-# Online-Retail-SEP
-Women Fashion Online Retail Web Application 
-This is the Demo of Online Retail Web Application of Women Fashion. The purpose of this project to practies for Software Engineering course.
+# Online-Sales-System
+AN ONLINE SYSTEM SUPPORTING IN SALES
+This is the Demo of an online system supporting in sales. This project is for thesis .
 
 
 INFO
