@@ -1,0 +1,65 @@
+
+ <section class="blog-banner-area" id="blog">
+    <div class="container h-100">
+      <div class="blog-banner">
+        <div class="text-center">
+          <h1>ADD YOUR PRODUCTS</h1>
+          <nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">{{fullname}}</a></li>
+              <li class="breadcrumb-item active" aria-current="page">My Store</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+	<!-- ================ contact section start ================= -->
+ <section class="product_image_area">
+		<div class="container">
+			<div class="row s_product_inner">
+				<div class="col-lg-6">
+					<div class="owl-carousel owl-theme s_Product_carousel">
+						<div class="single-prd-item">
+              </br>
+               </br>
+                </br>
+                 </br>
+                  </br>
+                   </br>
+                    </br>
+						  <label for="img">Select image:</label>
+              <input type="file" id="img" name="img" accept="image/*">
+						</div>
+						<!-- <div class="single-prd-item">
+							<img class="img-fluid" src="img/category/s-p1.jpg" alt="">
+						</div>
+						<div class="single-prd-item">
+							<img class="img-fluid" src="img/category/s-p1.jpg" alt="">
+						</div> -->
+					</div>
+				</div>
+				<div class="col-lg-5 offset-lg-1">
+					<div class="s_product_text">
+						<h3><input type="text" class="form-control" id="fullname" name="Product's Name" placeholder="Product's Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Product's Name'"></h3>
+						<h2><input type="number" name="quantity" placeholder="Price" min="1000" max="100000000"> VNĐ</h2>
+						<ul class="list">
+							<li><a class="active" href="#"><span>Category</span> : {{Category.name}}</a></li>
+							<li><a class="active" href="#"><span>Classify</span> : {{Category.name}}</a></li>
+              <li><input type="text" class="form-control" id="fullname" name="sumary" placeholder="sumary"></li>
+						</ul>
+						<p><textarea class="form-control different-control w-100" name="message" cols="30" rows="10" placeholder="Description"></textarea></p>
+						<div class="product_count">
+              <label for="qty">Quantity:</label>
+             <input type="number" name="quantity" min="1" max="1000">
+							             
+						</div>
+						<a class="button primary-btn add-to-cart" data-id="{{id}}" href="">Submit</a>  
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ================ contact section end ================= -->
+  
