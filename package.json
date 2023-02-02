@@ -1,7 +1,7 @@
 {
-    "name": "online-retail-sep",
+    "name": "Shopping-online",
     "version": "1.0.0",
-    "description": "Software Engineering Project",
+    "description": "Thesis Project",
     "main": "index.js",
     "engines": {
         "node": "12.18.4"
@@ -15,7 +15,7 @@
         "url": "git+https://github.com/khanhnguyen32/Online-Retail-SEP.git"
     },
     "keywords": [],
-    "author": "Khanh Nguyen, Oanh Nguyen, Thinh Tran",
+    "author": "Thinh Tran",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/khanhnguyen32/Online-Retail-SEP/issues"
