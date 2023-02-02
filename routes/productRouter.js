@@ -1,6 +1,7 @@
 let express = require('express');
 let router = express.Router();
 
+
 router.get('/', (req, res, next) => {
     if ((req.query.category == null) || isNaN(req.query.category)) {
         req.query.category = 0;
@@ -80,5 +81,14 @@ router.get('/:id', (req, res, next) => {
         .catch(error => next(error));
 
 });
+
+router.get('/sell', (req, res) => {
+    res.render('sell');
+});
+
+router.post('/sell', (req, res, next) => {
+
+    console.log(req.body)
+}); 
 
 module.exports = router;

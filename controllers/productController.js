@@ -128,4 +128,16 @@ controller.getById = (id) => {
             .catch(error => reject(new Error(error)));
     });
 };
+
+controller.getByName = (name) => {
+    return Product.findOne({
+        where: { name: name }
+    });
+};
+
+controller.createProduct = (product) => {
+
+    return Product.create(product);
+};
+
 module.exports = controller;

@@ -22,3 +22,4 @@ Setup
 8: terminal "nodemon"
 9: web "localhost:5000/sync"
 10: sequelize db:seed:all
+11: npm install -s brcyptjs

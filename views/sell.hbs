@@ -6,7 +6,7 @@
 				<nav aria-label="breadcrumb" class="banner-breadcrumb">
 					<ol class="breadcrumb">
 						<li class="breadcrumb-item"><a href="#">{{fullname}}</a></li>
-						<li class="breadcrumb-item active" aria-current="page">My Store</li>
+						<li class="breadcrumb-item active" aria-current="page">Sell</li>
 					</ol>
 				</nav>
 			</div>
@@ -16,92 +16,164 @@
 
 <!-- ================ contact section start ================= -->
 <section class="product_image_area">
+	<form class="row login_form" action="/products/sell" method="POST">
 	<div class="container">
 		<div class="row s_product_inner">
 			<div class="col-lg-6">
-				<div class="owl-carousel owl-theme s_Product_carousel">
+				
 					<div class="single-prd-item">
-
-						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
-<style>
-  .preview-img {
-    max-width: 800px;
-    margin: 0 1em 1em 0;
-    padding: 0.5em;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-</style>
-<div class="container">
-  <p>Upload Product's Images</p>
-  <input type="file" class="form-control mb-4" />
-  <div class="preview"></div>
-</div>
-<script>
-  const ipnFileElement = document.querySelector('input')
-  const resultElement = document.querySelector('.preview')
-  const validImageTypes = ['image/gif', 'image/jpeg', 'image/png']
-
-  ipnFileElement.addEventListener('change', function (e) {
-    const files = e.target.files
-    const file = files[0]
-    const fileType = file['type']
-
-    if (!validImageTypes.includes(fileType)) {
-      resultElement.insertAdjacentHTML(
-        'beforeend',
-        '<span class="preview-img"></span>'
-      )
-      return
-    }
-
-    const fileReader = new FileReader()
-    fileReader.readAsDataURL(file)
-
-    fileReader.onload = function () {
-      const url = fileReader.result
-      resultElement.insertAdjacentHTML(
-        'beforeend',
-        `<img src="${url}" alt="${file.name}" class="preview-img" />`
-      )
-    }
-  })
-</script>
-					</div>
-					{{!-- <label for="img">Select image:</label>
-					<input type="file" id="img" name="img" accept="image/*"> --}}
-
-					<!-- <div class="single-prd-item">
-							<img class="img-fluid" src="img/category/s-p1.jpg" alt="">
+						<link rel="stylesheet"
+							href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+						<style>
+							.preview-img {
+								max-width: 800px;
+								margin: 0 1em 1em 0;
+								padding: 0.5em;
+								border: 1px solid #ccc;
+								border-radius: 3px;
+							}
+						</style>
+						<div class="container">
+							<p>Upload Product's Images</p>
+							<input type="file" class="form-control mb-4" id="imagepath" name="imagepath"/>
+							<div class="preview"></div>
 						</div>
-						<div class="single-prd-item">
-							<img class="img-fluid" src="img/category/s-p1.jpg" alt="">
-						</div> -->
-				</div>
+						<script>
+							const ipnFileElement = document.querySelector('input')
+							const resultElement = document.querySelector('.preview')
+							const validImageTypes = ['image/gif', 'image/jpeg', 'image/png']
+
+							ipnFileElement.addEventListener('change', function (e) {
+								const files = e.target.files
+								const file = files[0]
+								const fileType = file['type']
+
+								if (!validImageTypes.includes(fileType)) {
+									resultElement.insertAdjacentHTML(
+										'beforeend',
+										'<span class="preview-img"></span>'
+									)
+									return
+								}
+
+								const fileReader = new FileReader()
+								fileReader.readAsDataURL(file)
+
+								fileReader.onload = function () {
+									const url = fileReader.result
+									resultElement.insertAdjacentHTML(
+										'beforeend',
+										`<img src="${url}" alt="${file.name}" class="preview-img" />`
+									)
+								}
+							})
+						</script>
+					</div>
+				
 			</div>
+			
 			<div class="col-lg-5 offset-lg-1">
 				<div class="s_product_text">
-					<h3><input type="text" class="form-control" id="fullname" name="Product's Name"
+					<h3><input type="text" class="form-control" id="name" name="name"
 							placeholder="Product's Name" onfocus="this.placeholder = ''"
 							onblur="this.placeholder = 'Product's Name'"></h3>
-					<h2><input type="number" name="quantity" placeholder="Price" min="1000" max="100000000"> VNĐ</h2>
+
+							<input type="hidden" id="id" name="id" value="3487">
+
+					<h2><input type="number" id="price" name="price" placeholder="Price" min="1000" max="100000000"> VNĐ</h2>
+
 					<ul class="list">
-						<li><a class="active" href="#"><span>Category</span>:</a></li>
-						<li><a class="active" href="#"><span>Classify</span>:</a></li>
-						<li><input type="text" class="form-control" id="fullname" name="sumary" placeholder="sumary">
+						<label for="category">Category : &nbsp; &nbsp; </label>
+						<input type="text" name="category" list="category" />
+						<datalist id="category">
+							<option>Electronic Devices</option>
+							<option>Health & Beauty</option>
+							<option>Babies & Toys</option>
+							<option>Groceries & Pets</option>
+							<option>Home & Lifestyle</option>
+							<option>Fashion & Fitment</option>
+							<option>Sports & Travel</option>
+						</datalist>
+						</br>
+
+						<label for="classify">Classify : &nbsp; &nbsp; </label>
+						<input type="text" name="brand" list="brand" />
+						<datalist id="brand" >
+							<option>Mobiles</option>
+							<option>Tablets</option>
+							<option>Laptops</option>
+							<option>Desktops Computers</option>
+							<option>Audio</option>
+							<option>Cameras & Video</option>
+							<option>Monitors</option>
+
+							<option>Skincare</option>
+							<option>Make-Up</option>
+							<option>Beauty Tools</option>
+							<option>Bath & Body</option>
+							<option>Deodorants</option>
+							<option>Fragrances</option>
+
+							<option>Diapering & Potty</option>
+							<option>Milk Formula & Baby Food</option>
+							<option>Baby Fashion</option>
+							<option>Learning & Education</option>
+							<option>Baby Personal Care</option>
+							<option>Toys & Games</option>
+
+							<option>Beverages & Chilled</option>
+							<option>Canned & Dried Goods</option>
+							<option>Kitchen Supplies</option>
+							<option>Laundry Supplies</option>
+							<option>Pet Accessories</option>
+							<option>Pet Food & pet healthcare</option>
+							<option>Fruit & Vegetables</option>
+
+							<option>Kitchen & Dining</option>
+							<option>Tools & Outdoor</option>
+							<option>Bedding & Bath</option>
+							<option>Home Décor & Furniture</option>
+							<option>Stationery & Craft</option>
+							<option>Media, Music & Books</option>
+							<option>Laundry & Cleaning</option>
+
+							<option>Women's Clothing</option>
+							<option>Men's Clothing</option>
+							<option>Jackets & Shirts</option>
+							<option>Sweaters & Cardigans</option>
+							<option>Skirts & Dresses</option>
+							<option>Shoes</option>
+							<option>Jeans & Shorts</option>
+
+							<option>Men's Sports Shoes</option>
+							<option>Women's Sports Shoes</option>
+							<option>Outdoor Recreation</option>
+							<option>Exercise & Fitness</option>
+							<option>Boxing & Martial Arts</option>
+							<option>Water Sports</option>
+							<option>Sports Accessories</option>
+						</datalist>
+						</br>
+					
+						<li><input type="text" class="form-control" id="sumary" name="sumary" placeholder="sumary">
 						</li>
 					</ul>
-					<p><textarea class="form-control different-control w-100" name="message" cols="30" rows="10"
+
+					<p><textarea class="form-control different-control w-100" id="description" name="description" cols="30" rows="10"
 							placeholder="Description"></textarea></p>
+
 					<div class="product_count">
 						<label for="qty">Quantity:</label>
-						<input type="number" name="quantity" min="1" max="1000">
-
+						<input type="number" id="availability" name="availability" min="1" max="1000">
 					</div>
-					<a class="button primary-btn add-to-cart" data-id="{{id}}" href="">SELL</a>
+					
+					<button type="submit" value="submit" class="button primary-btn add-to-cart">SELL</button>
 				</div>
+
 			</div>
 		</div>
+
 	</div>
+	</form>
 </section>
 <!-- ================ contact section end ================= -->

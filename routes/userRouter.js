@@ -23,7 +23,6 @@ router.post('/login', (req, res, next) => {
                     } else {
                         res.redirect('/');
                     }
-                    res.redirect('/');
                 } else {
                     res.render('login', {
                         message: "Incorrect Password!",
