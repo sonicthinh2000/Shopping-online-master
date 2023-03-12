@@ -94,9 +94,9 @@ $(function() {
                 // Starting at 500, step the value by 500,
                 // until 4000 is reached. From there, step by 1000.
                 'min': [0],
-                '10%': [10000000, 100000],
+                '10%': [9000000, 100000],
                 '50%': [50000000, 100000],
-                'max': [100000000]
+                'max': [90000000]
             }
         });
 

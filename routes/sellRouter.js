@@ -1,6 +1,6 @@
 let express = require('express');
 let router = express.Router();
-
+const Handlebars = require('handlebars');
 
 router.get('/', (req, res, next) => {
     if ((req.query.category == null) || isNaN(req.query.category)) {
@@ -30,6 +30,7 @@ router.get('/', (req, res, next) => {
     if ((req.query.search == null) || isNaN(req.query.search.trim() == '')) {
         req.query.search = '';
     }
+
     let categoryController = require('../controllers/categoryController');
     categoryController
         .getAll(req.query)
@@ -56,71 +57,11 @@ router.get('/', (req, res, next) => {
                 limit: parseInt(req.query.limit),
                 totalRows: data.count
             }
-            res.render('category');
+            res.render('mystore');
         })
         .catch(error => next(error));
 
 });
 
-router.get('/:id', (req, res, next) => {
-    let productController = require('../controllers/productController');
-    productController
-        .getById(req.params.id)
-        .then(product => {
-            res.locals.product = product;
-            let reviewController = require('../controllers/reviewController');
-            return reviewController.getUserReviewProduct(
-                req.session.user ? req.session.user.id : 0,
-                req.params.id
-            );
-        })
-        .then(review => {
-            res.locals.userReview = review;
-            res.render('singleproduct');
-        })
-        .catch(error => next(error));
 
-});
-
-router.get('/sell', (req, res) => {
-    res.render('sell');
-});
-
-router.post('/sell', (req, res, next) => {
-
-        let name = req.body.name;
-        let imagepath = req.body.imagepath;
-        let thumbnailpath = req.body.imagepath;
-        let price = req.body.price;
-        let category = req.body.category;
-        let brand = req.body.brand;
-        let sumary = req.body.sumary;
-        let availability = req.body.availability;
-        let description = req.body.description;
-
-        let productController = require('../controllers/productController');
-    productController
-    .getByName(name)
-    .then(product => {
-        let brandController = require('../controllers/brandController');
-        let categoryController = require('../controllers/categoryController');;
-        product = {
-            name,
-            imagepath,
-            thumbnailpath,
-            price,
-            categoryId: 1,
-            brandId: 1,
-            sumary,
-            availability: true,
-            description
-        };
-        return productController
-            .createProduct(product)
-        })
-    .then(doc => {
-            res.redirect('/mystore')
-        })
-    .catch(error => next(error));
-});
 module.exports = router;

@@ -23,6 +23,15 @@ let hbs = expressHbs.create({
         createPagination: paginateHelper.createPagination
     }
 });
+
+Handlebars.registerHelper('gt', function(value, compare, options) {
+    if (value > compare) {
+      return options.fn(this);
+    } else {
+      return options.inverse(this);
+    }
+  });
+  
 app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
 
@@ -62,6 +71,7 @@ app.use('/cart', require('./routes/cartRouter'));
 app.use('/comments', require('./routes/commentRouter'));
 app.use('/reviews', require('./routes/reviewRouter'));
 
+app.use('/mystore', require('./routes/sellRouter'));
 app.use('/users', require('./routes/userRouter'));
 app.get('/sync', (req, res) => {
     let models = require('./models');
@@ -79,6 +89,8 @@ app.get('/:page', (req, res) => {
         checkout: 'Product Checkout',
         confirmation: 'Order Confirmation',
         contact: 'Contact Us',
+        mystore: 'My Store',
+        sell: 'Sell',
         login: 'Login / Register',
         register: 'Register',
         singleblog: 'Blog Details',

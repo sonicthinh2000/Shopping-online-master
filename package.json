@@ -12,15 +12,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/khanhnguyen32/Online-Retail-SEP.git"
+        "url": "git+https://github.com/sonicthinh2000/Shopping-online-master.git"
     },
     "keywords": [],
     "author": "Thinh Tran",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/khanhnguyen32/Online-Retail-SEP/issues"
+        "url": "https://github.com/sonicthinh2000/Shopping-online-master/issues"
     },
-    "homepage": "https://github.com/khanhnguyen32/Online-Retail-SEP#readme",
+    "homepage": "https://github.com/sonicthinh2000/Shopping-online-master#readme",
     "dependencies": {
         "-": "0.0.1",
         "@handlebars/allow-prototype-access": "^1.0.3",
@@ -31,7 +31,7 @@
         "express-handlebars": "^5.1.0",
         "express-handlebars-paginate": "^1.0.3",
         "express-session": "^1.17.1",
-        "handlebars": "^4.5.3",
+        "handlebars": "^4.7.7",
         "hbs": "^4.1.1",
         "mysql2": "^2.2.5",
         "nodemon": "^2.0.4",

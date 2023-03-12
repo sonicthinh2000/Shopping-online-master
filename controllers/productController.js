@@ -140,4 +140,19 @@ controller.createProduct = (product) => {
     return Product.create(product);
 };
 
+
+controller.getProductsGreaterThan40 = async (req, res) => {
+    try {
+      const products = await Product.findAll({
+        where: {
+          id: { [Op.gt]: 40 } // Use Op.gt to query products with id greater than 40
+        }
+      });
+    
+    } catch (error) {
+      console.log(error);
+      res.render('error');
+    }
+  };
+
 module.exports = controller;

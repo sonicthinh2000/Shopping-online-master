@@ -2,6 +2,7 @@ let controller = {};
 let models = require('../models')
 let Category = models.Category;
 let Sequelize = require('sequelize');
+const category = require('../models/category');
 let Op = Sequelize.Op;
 
 controller.getAll = (query) => {
@@ -24,4 +25,15 @@ controller.getAll = (query) => {
             .catch(error => reject(new Error(error)));
     });
 };
+
+controller.getID = (name) => {
+        Category.findOne({
+            where: { name: name }})
+            .then(result => {
+            category = result.id;
+            return category;
+        })
+    };
+
+
 module.exports = controller;

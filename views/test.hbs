@@ -30,3 +30,113 @@
     }
   }
 </script>
+
+../img/products/demo/demo.png
+
+
+<section class="blog-banner-area" id="blog">
+  <div class="container h-100">
+    <div class="blog-banner">
+      <div class="text-center">
+        <h1>My Store</h1>
+        <nav aria-label="breadcrumb" class="banner-breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">{{fullname}}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">My Store</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================ contact section start ================= -->
+
+  <section class="cart_area">
+      <div class="container">
+          <div class="cart_inner" id="cart-body">
+              {{#if items.length}}
+              <div class="table-responsive">
+                  <table class="table">
+                      <thead>
+                          <tr>
+                              <th scope="col">Product</th>
+                              <th scope="col">Price</th>
+                              <th scope="col">Status</th>
+                              <th scope="col">Edit</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          {{#each items}}
+                          <tr id="item{{item.id}}">
+                              <td>
+                                  <div class="media">
+                                      <div class="d-flex">
+                                          <img src="{{item.thumbnailpath}}" alt="" height="85" width="55">
+                                      </div>
+                                      <div class="media-body">
+                                          <p>{{item.name}}</p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td>
+                                  <h5>VNĐ {{item.price}}</h5>
+                              </td>
+                              <td>
+                                  <div class="product_count">
+                                      <input type="text" name="qty" id="sst{{item.id}}" maxlength="12" value="{{quantity}}" title="Quantity:"
+                                          class="input-text qty" readonly>
+                                      <button onclick="var result = document.getElementById('sst{{item.id}}'); var sst = result.value; if( !isNaN( sst )) result.value++; updateCart({{item.id}}, result.value); return false;"
+                                          class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
+                                      <button onclick="var result = document.getElementById('sst{{item.id}}'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 1 || (sst == 1) && confirm('Do you want to remove this item?') ) result.value--; updateCart({{item.id}}, result.value); return false;"
+                                          class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
+                                  </div>
+                              </td>
+                              <td>
+                                  <h5 id="price{{item.id}}">{{price}}</h5>
+                              </td>
+                          </tr>
+                          {{/each}}
+                         
+                           <tr class="out_button_area">
+                              <td class="d-none-l">
+
+                              </td>
+                              <td class="">
+
+                              </td>
+                              <td>
+
+                              </td>
+                               <td>
+
+                              </td>
+                          
+                              <td>
+                                  <div class="checkout_btn_inner d-flex align-items-center">
+                                      <a class="primary-btn ml-2" href="sell">Continue Selling</a>
+                                  </div>
+                              </td>
+                          </tr>
+                  
+                      </tbody>
+                  </table>
+                  {{else}}
+                  <div class="alert alert-info text-center"> Your store is empty!</div>
+                  {{/if}}
+              </div>
+          </div>
+      </div>
+  </section>
+
+ let productController = require('../controllers/productController');
+    productController
+        .getById(id)
+        .then(data => {
+            res.locals.id = data;
+            data > 50;
+            let categoryController = require('../controllers/categoryController');
+            return categoryController.getAll(req.query);
+        })
+<!-- bootstrap css 4.5.0 -->
+<!-- ================ contact section end ================= -->
