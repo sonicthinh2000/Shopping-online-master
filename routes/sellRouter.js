@@ -63,5 +63,14 @@ router.get('/', (req, res, next) => {
 
 });
 
-
+router.get('/:id', (req, res) => {
+    const id = req.params.id;
+    let productController = require('../controllers/productController');
+    const product = productController.getById(id);
+    if (product && product.id > 40) {
+      res.render('mystore', { product });
+    } else {
+      res.status(404).send('Product not found');
+    }
+  });
 module.exports = router;

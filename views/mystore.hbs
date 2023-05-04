@@ -14,79 +14,6 @@
   </div>
 </section>	  
     
-    <ul class="list">
-                         
-						<label for="category">Category : &nbsp; &nbsp; </label>
-						<input type="text" name="category" list="category" />
-						{{#each categories}}
-						<datalist id="category{{id}}">
-							<option>{{name}}</option>
-						</datalist>
-                         {{/each}}
-    
-						</br>
-
-						<label for="classify">Classify : &nbsp; &nbsp; </label>
-						<input type="text" name="brand" list="brand" />
-						<datalist id="brand" >
-							<option>Mobiles</option>
-							<option>Tablets</option>
-							<option>Laptops</option>
-							<option>Desktops Computers</option>
-							<option>Audio</option>
-							<option>Cameras & Video</option>
-							<option>Monitors</option>
-
-							<option>Skincare</option>
-							<option>Make-Up</option>
-							<option>Beauty Tools</option>
-							<option>Bath & Body</option>
-							<option>Deodorants</option>
-							<option>Fragrances</option>
-
-							<option>Diapering & Potty</option>
-							<option>Milk Formula & Baby Food</option>
-							<option>Baby Fashion</option>
-							<option>Learning & Education</option>
-							<option>Baby Personal Care</option>
-							<option>Toys & Games</option>
-
-							<option>Beverages & Chilled</option>
-							<option>Canned & Dried Goods</option>
-							<option>Kitchen Supplies</option>
-							<option>Laundry Supplies</option>
-							<option>Pet Accessories</option>
-							<option>Pet Food & pet healthcare</option>
-							<option>Fruit & Vegetables</option>
-
-							<option>Kitchen & Dining</option>
-							<option>Tools & Outdoor</option>
-							<option>Bedding & Bath</option>
-							<option>Home Décor & Furniture</option>
-							<option>Stationery & Craft</option>
-							<option>Media, Music & Books</option>
-							<option>Laundry & Cleaning</option>
-
-							<option>Women's Clothing</option>
-							<option>Men's Clothing</option>
-							<option>Jackets & Shirts</option>
-							<option>Sweaters & Cardigans</option>
-							<option>Skirts & Dresses</option>
-							<option>Shoes</option>
-							<option>Jeans & Shorts</option>
-
-							<option>Men's Sports Shoes</option>
-							<option>Women's Sports Shoes</option>
-							<option>Outdoor Recreation</option>
-							<option>Exercise & Fitness</option>
-							<option>Boxing & Martial Arts</option>
-							<option>Water Sports</option>
-							<option>Sports Accessories</option>
-						</datalist>
-						</br>
-					
-					</ul>
-
 		<section class="cart_area">
   <div class="container">
     <div class="cart_inner" id="cart-body">
@@ -103,7 +30,7 @@
           </thead>
           <tbody>
             {{#each products}}
-     
+           
             <tr id="item{{id}}">
               <td>
                 <div class="media">
@@ -152,6 +79,9 @@
 </section>
 
 <script>
+
+   const filteredProducts = products.filter(product => product.price === 23490000);
+
     $(document).on('click', '.button-delete', function(e) {
   e.preventDefault();
   var productId = $(this).data('id');

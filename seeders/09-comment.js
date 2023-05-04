@@ -17,7 +17,7 @@ module.exports = {
             {
                 message: 'good item',
                 userId: 5,
-                productId: 2,
+                productId: 35,
                 parentCommentId: null
             },
             {

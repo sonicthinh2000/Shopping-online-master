@@ -26,8 +26,8 @@ module.exports = {
                 256 GB internal memory
                 Stored Contacts Depends on memory
                 External memory card No`,
-                overallReview: 4.5,
-                reviewCount: 2
+                overallReview: 5,
+                reviewCount: 1
             },
             {
                 name: "Masstel Tab 10A",

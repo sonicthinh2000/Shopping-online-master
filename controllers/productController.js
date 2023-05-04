@@ -155,4 +155,18 @@ controller.getProductsGreaterThan40 = async (req, res) => {
     }
   };
 
+  controller.displayProducts = async (req, res) => {
+    try {
+      const products = await Product.findAll({
+        where: {
+          id: { [Op.gt]: 40 }
+        }
+      });
+      res.render('mystore', { products });
+    } catch (error) {
+      console.error(error);
+      res.status(500).send('Internal Server Error');
+    }
+  };
+
 module.exports = controller;

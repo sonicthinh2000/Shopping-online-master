@@ -103,7 +103,7 @@ router.post('/sell', (req, res, next) => {
     .getByName(name)
     .then(product => {
         let brandController = require('../controllers/brandController');
-        let categoryController = require('../controllers/categoryController');;
+        let categoryController = require('../controllers/categoryController');
         product = {
             name,
             imagepath,

@@ -1,4 +1,4 @@
-# Online-Sales-System
+# Online-Shopping-System
 AN ONLINE SYSTEM SUPPORTING IN SALES
 This is the Demo of an online system supporting in sales. This project is for thesis .
 
